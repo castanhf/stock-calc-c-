@@ -10,16 +10,12 @@ namespace ClassObject {
       
     }
 
-    public static void Main(string[] args) {
-
-      // create Dog object 
+    public static void Main(string[] args) { 
       Dog bullDog = new Dog();
 
-      // access breed of the Dog 
       bullDog.breed = "Bull Dog";
       Console.WriteLine(bullDog.breed);
 
-      // access method of the Dog
       bullDog.bark();   
 
       Console.ReadLine();
